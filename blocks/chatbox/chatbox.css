@@ -1,0 +1,7 @@
+.chatbox {
+  position: relative;
+  width: 95%;
+  height: 540px; /*почему-то не хочет видеть формулу calc: 100% - 120px, поэтому стоит фикс высота*/
+  padding: 20px;
+  overflow-y: auto;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messenger</title>
+    <link rel="stylesheet" type="text/css" href="./pages/index.css" />
+  </head>
+  <body class="root">
+    <div class="container">
+      <section class="left-side">
+        <!-- Header Left Side -->
+        <header class="header">
+          <img
+            src="./images/avatar.jpg"
+            class="header__user-photo"
+            alt="Avatar"
+          />
+          <ul class="header__nav">
+            <li class="header__nav-link">
+              <ion-icon name="ellipsis-vertical-circle-outline"></ion-icon>
+            </li>
+            <li class="header__nav-link">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </li>
+            <li class="header__nav-link">
+              <ion-icon name="exit-outline"></ion-icon>
+            </li>
+          </ul>
+        </header>
+        <!-- Search -->
+        <div class="left-side__search">
+          <input class="left-side__input" type="text" placeholder="Search..." />
+          <ion-icon class="left-side__icon" name="search-outline"></ion-icon>
+        </div>
+        <!-- Contacts -->
+        <ul class="left-side__contacts">
+          <li class="chatlist">
+            <img
+              src="./images/users-photo.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Mary Jane</h2>
+                <span class="chat-info__details-time">13:32</span>
+              </div>
+              <div class="chatlist-info__message">Hello!Hello!</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-two.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Ivan Ivanov</h2>
+                <span class="chat-info__details-time">13:54</span>
+              </div>
+              <div class="chatlist-info__message">lorem ipsum. lorem ipsum</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-three.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Aleksey Sergeev</h2>
+                <span class="chat-info__details-time">10:12</span>
+              </div>
+              <div class="chatlist-info__message">lorem ipsum</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-four.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Jack Fresko</h2>
+                <span class="chat-info__details-time">9:12</span>
+              </div>
+              <div class="chatlist-info__message">lorem ipsum...</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-three.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Aleksey Sergeev</h2>
+                <span class="chat-info__details-time">10:12</span>
+              </div>
+              <div class="chatlist-info__message">Send for processing...</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-three.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Aleksey Sergeev</h2>
+                <span class="chat-info__details-time">10:12</span>
+              </div>
+              <div class="chatlist-info__message">lorem ipsum</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-three.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Aleksey Sergeev</h2>
+                <span class="chat-info__details-time">10:12</span>
+              </div>
+              <div class="chatlist-info__message">lorem ipsum</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-three.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Aleksey Sergeev</h2>
+                <span class="chat-info__details-time">10:12</span>
+              </div>
+              <div class="chatlist-info__message">lorem ipsum</div>
+            </div>
+          </li>
+          <li class="chatlist">
+            <img
+              src="./images/user-three.jpg"
+              alt="Users photo"
+              class="chatlist__user-avatar"
+            />
+            <div class="chatlist-info">
+              <div class="chat-info__details">
+                <h2 class="chat-info__details-name">Aleksey Sergeev</h2>
+                <span class="chat-info__details-time">10:12</span>
+              </div>
+              <div class="chatlist-info__message">lorem ipsum</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="right-side">
+        <!-- Header Right Side -->
+        <header class="right-side__header">
+          <header class="header">
+            <div class="right-side__container">
+              <img
+            src="./images/user-four.jpg"
+            class="header__user-photo"
+            alt="Avatar"
+          />
+          <h1 class="header__user-name">Jack Fresko <br><span class="header__span">online</span></h1>
+            </div> 
+            <ul class="header__nav">
+              <li class="header__nav-link">
+                <ion-icon name="ellipsis-vertical-circle-outline"></ion-icon>
+              </li>
+              <li class="header__nav-link">
+                <ion-icon name="search-outline"></ion-icon>
+              </li>
+            </ul>
+        </header>
+        <!-- Chat area -->
+        <div class="chatbox">
+          <div class="chatbox__message chatbox__my-message">
+            <p class="chatbox__text">Hi!<br><span class="chatbox__time">12:30</span></p>
+          </div>
+          <div class="chatbox__message chatbox__frnd-message">
+            <p class="chatbox__text">Hello!<br><span class="chatbox__time">12:30</span></p>
+          </div>
+          <div class="chatbox__message chatbox__my-message">
+            <p class="chatbox__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><span class="chatbox__time">12:30</span></p>
+          </div>
+          <div class="chatbox__message chatbox__frnd-message">
+            <p class="chatbox__text">...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><span class="chatbox__time">12:30</span></p>
+          </div>
+          <div class="chatbox__message chatbox__frnd-message">
+            <p class="chatbox__text">...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><span class="chatbox__time">12:30</span></p>
+          </div>
+          <div class="chatbox__message chatbox__frnd-message">
+            <p class="chatbox__text">...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<br><span class="chatbox__time">12:30</span></p>
+          </div>
+        </div>
+        <!-- Chat Input -->
+        <form class="form">
+          <ion-icon class="form__icon" name="attach-outline"></ion-icon>
+          <ion-icon class="form__icon" name="mic-outline"></ion-icon>
+          <input type="text" class="form__input" placeholder="Type a message...">
+          <button type="submit" class="form__button">Submit</button>
+        </form>
+      </section>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.left-side__input {
+  width: 100%;
+  cursor: pointer;
+  height: 30px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #000;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 10px 0 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}

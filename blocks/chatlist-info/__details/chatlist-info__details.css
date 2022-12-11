@@ -1,0 +1,4 @@
+.chat-info__details {
+  display: flex;
+  justify-content: space-between;
+}

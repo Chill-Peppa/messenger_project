@@ -1,0 +1,6 @@
+.header__nav {
+  display: flex;
+  list-style: none;
+  column-gap: 10px;
+  margin-right: 10px;
+}

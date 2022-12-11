@@ -1,0 +1,8 @@
+.left-side__contacts {
+  position: relative;
+  overflow-y: auto;
+  height: calc(100% - (60px + 50px));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

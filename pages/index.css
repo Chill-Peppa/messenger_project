@@ -1,0 +1,46 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+
+@import url("../blocks/root/root.css");
+@import url("../blocks/container/container.css");
+
+/*----- SECTION LEFT SIDE -----*/
+@import url("../blocks/left-side/left-side.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__user-photo/header__user-photo.css");
+@import url("../blocks/header/__nav/header__nav.css");
+@import url("../blocks/header/__nav-link/header__nav-link.css");
+
+@import url("../blocks/left-side/__search/left-side__search.css");
+@import url("../blocks/left-side/__input/left-side__input.css");
+@import url("../blocks/left-side/__icon/left-side__icon.css");
+@import url("../blocks/left-side/__contacts/left-side__contacts.css");
+
+@import url("../blocks/chatlist/chatlist.css");
+@import url("../blocks/chatlist/__user-avatar/chatlist__user-avatar.css");
+
+@import url("../blocks/chatlist-info/chatlist-info.css");
+@import url("../blocks/chatlist-info/__details/chatlist-info__details.css");
+@import url("../blocks/chatlist-info/__details-name/chatlist-info__details-name.css");
+@import url("../blocks/chatlist-info/__details-time/chatlist-info__details-time.css");
+@import url("../blocks/chatlist-info/__message/chatlist-info__message.css");
+
+/*----- SECTION RIGHT SIDE -----*/
+@import url("../blocks/right-side/right-side.css");
+@import url("../blocks/right-side/__container/right-side__container.css");
+
+@import url("../blocks/header/__user-name/header__user-name.css");
+@import url("../blocks/header/__span/header__span.css");
+
+@import url("../blocks/chatbox/chatbox.css");
+@import url("../blocks/chatbox/__messege/chatbox__messege.css");
+@import url("../blocks/chatbox/__text/chatbox__text.css");
+@import url("../blocks/chatbox/__time/chatbox__time.css");
+@import url("../blocks/chatbox/__my-message/chatbox__my-message.css");
+@import url("../blocks/chatbox/__frnd-message/chatbox__frnd-message.css");
+
+@import url("../blocks/form/form.css");
+@import url("../blocks/form/__icon/form__icon.css");
+@import url("../blocks/form/__input/form__input.css");
+@import url("../blocks/form/__button/form__button.css");

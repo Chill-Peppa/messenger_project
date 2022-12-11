@@ -1,0 +1,17 @@
+.chatlist {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: opacity 0.4s ease-out 0s;
+  opacity: 1;
+}
+
+.chatlist:hover {
+  opacity: 0.5;
+}

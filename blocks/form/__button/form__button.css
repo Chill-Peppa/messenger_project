@@ -1,0 +1,19 @@
+.form__button {
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  border: none;
+  background-color: rgba(250, 235, 215, 0.719);
+  right: 15px;
+  transition: opacity 0.4s ease-out 0s;
+  opacity: 1;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  opacity: 0.5;
+}

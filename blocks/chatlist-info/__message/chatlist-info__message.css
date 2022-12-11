@@ -1,0 +1,12 @@
+.chatlist-info__message {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  margin: 3px 0;
+  color: #aaa;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

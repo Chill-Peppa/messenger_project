@@ -1,0 +1,18 @@
+.root {
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    #6c5f72 0%,
+    #6c5f72 130px,
+    #e5e5e5 130px,
+    #e5e5e5 100%
+  );
+}
